@@ -25,7 +25,7 @@ public class BaseTest {
   
 	@BeforeClass
 	public void setUp() throws MalformedURLException {
-		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 		
 		driver =  new ChromeDriver();	
 		driver.manage().window().maximize();
